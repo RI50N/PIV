@@ -1,1 +1,10 @@
-<div ui-view layout="column" flex>teste</div>
+<md-card-content>
+  <md-list ng-repeat="meses in $ctrl.mes track by $index">
+      <md-list-item ng-repeat="dias in meses track by $index">
+        <div flex>
+          <span class="md-title" layout-margin>{{dias}}</span>
+        </div>
+        <md-divider></md-divider>
+      </md-list-item>
+  </md-list>
+</md-card-content>
