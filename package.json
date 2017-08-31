@@ -1,0 +1,26 @@
+{
+  "name": "btc_calc",
+  "version": "1.0.0",
+  "description": "Calcular lucros de investimentos em BTC",
+  "scripts": {
+    "start": "gulp browser-sync",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RI50N/PIV.git"
+  },
+  "author": "Adriano Thalheimer Boese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RI50N/PIV/issues"
+  },
+  "homepage": "https://github.com/RI50N/PIV#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-material": "^1.1.4",
+    "angular-ui-router": "^1.0.3",
+    "gulp": "^3.9.1",
+    "material-design-icons": "^3.0.1"
+  }
+}
