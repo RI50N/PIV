@@ -1,4 +1,5 @@
 angular
-  .module("listaTelefonica", [
-                          "ui.router"
+  .module("calc", [
+                          "ui.router",
+                          'ngMaterial'
                         ]);

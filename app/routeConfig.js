@@ -1,5 +1,5 @@
 angular
-  .module("listaTelefonica")
+  .module("calc")
   .config(function($stateProvider, $urlRouterProvider) {
   // console.log($stateProvider);
     $stateProvider
